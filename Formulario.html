@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>  
+  <head>    
+    <title>Web Deportiva</title>    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="css de la pagina.css">    
+	<link rel="icon"  type="image/png" href="M-Icono.png">
+	
+  </head>  
+  <body onselectstart="return false"  oncontextmenu="return false"> 
+    <font size="7" style="text-align:center;" color="white"> Formulario </font> <br>
+	<div class="page">
+     <nav class="menu">
+      <ul class="menu__list">
+       <li class="menu__group"><a href="file:///F:/Tf/Trabajo%20final.html" class="menu__link">Inicio</a></li>
+       <li class="menu__group"><a href="file:///F:/Tf/Basketball.html" class="menu__link">Basketball</a></li>
+       <li class="menu__group"><a href="file:///F:/Tf/Futbol.html" class="menu__link">Futbol</a></li>
+       <li class="menu__group"><a href="file:///F:/Tf/Voleibol.html" class="menu__link">Voleibol</a></li>
+       <li class="menu__group"><a href="file:///F:/Tf/Beisbol.html" class="menu__link">Beisbol</a></li>
+       <li class="menu__group"><a href="file:///F:/Tf/Formulario.html" class="menu__link">Formulario</a></li>
+      </ul>
+     </nav>
+    </div>
+	<br>
+	<div class="wrap" align="center">
+		<div class="widget">
+			<div class="fecha">
+				<p id="diaSemana" class="diaSemana">Martes</p>
+				<p id="dia" class="dia">27</p>
+				<p>de </p>
+				<p id="mes" class="mes">Octubre</p>
+				<p>del </p>
+				<p id="year" class="year">2015</p>
+			</div>
+	
+			<div class="reloj">
+				<p id="horas" class="horas">11</p>
+				<p>:</p>
+				<p id="minutos" class="minutos">48</p>
+				<p>:</p>
+				<div class="caja-segundos">
+					<p id="ampm" class="ampm">AM</p>
+					<p id="segundos" class="segundos">12</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<br>
+	<div class="contenedor-formulario">
+	 <div class="form">
+		<form action="" class="formulario" name="formulario_registro" method="get">
+		 <div>
+		   <div class="input-group">
+		       <label class="label" for="nombre">Nombre:</label>
+			   <br>
+			   <input type="text" id="nombre" name="nombre" required>
+			</div>
+			<div class="input-group">
+				<label class="label" for="correo">Correo:</label>
+				<br>
+				<input type="email" id="correo" name="correo" required>
+			</div>
+			<div class="input-group">
+				<label class="label" for="pass">Contraseña:</label>		
+				<br>
+				<input type="password" id="pass" name="pass" required>
+			</div>
+			<div class="input-group radio">
+				<input type="radio" name="sexo" id="hombre" value="Hombre">
+				<label for="hombre">Hombre</label>
+				<input type="radio" name="sexo" id="mujer" value="Mujer">
+				<label for="mujer">Mujer</label>
+			</div>
+			<div class="input-group checkbox">
+				<input type="checkbox" name="terminos" id="terminos" value="true" required>
+				<label for="terminos">Acepto los Terminos y Condiciones</label>
+			</div>
+			<input type="submit" id="btn-submit" value="Enviar" onclick="alert('Que disfrutes de todo lo el contenido');">
+		 </div>
+		</form>
+	  </div>
+	</div>
+	 <footer>Hecho por: Moises Cruz. 2020©
+	 <audio src="audio.mp3" controls autoplay loop></audio>
+	 </footer>
+	 <script src="javascript.js"></script>
+  </body>  
+</html>
